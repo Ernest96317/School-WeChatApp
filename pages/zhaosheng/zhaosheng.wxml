@@ -1,0 +1,40 @@
+<view id="wrap" ontouchstart>
+  <swiper class="banner" indicator-dots="true" autoplay="true" interval="3000" duration="500">
+  			<block wx:for="{{banners}}" wx:key="id">
+  				<swiper-item>
+  					<image class="banner_image" src="{{item.img}}"/>
+  				</swiper-item>
+  			</block>
+  		</swiper>
+
+      <view class="audio">
+        <video src="{{src}}"   controls style="width:100%"></video>
+        <view class="btn-area">
+          <button bindtap="bindButtonTap">东华理工大学2017年招生宣传片</button>
+        </view>
+      </view>
+
+      <view class="schoollist">
+        <block wx:for="{{items}}" wx:key="item">
+          <view class="school-list">
+            <navigator url="/pages/detail/detail?id={{item.id}}">
+              <view class="school-list-info" index="{{index}}">
+                <image class="school-list-photo" src="{{item.imageUrl}}"/>
+                <text class="school-list-desc">{{item.content}}</text>
+              </view>
+            </navigator>
+          </view>
+
+        </block>
+      </view>
+
+      <view class="footer">
+        <!-- <view class="contact">联系方式</view> -->
+        <view>联系单位：东华理工大学招生就业处</view>
+        <view>联系地址：江西省南昌市经开区广兰大道418号</view>
+        <view>邮政编码：330013</view>
+        <view>咨询电话：0791-83897952</view>
+      </view>
+
+
+</view>

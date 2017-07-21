@@ -1,0 +1,11 @@
+<page class="page detail">
+  <view class="detail-head">
+    <image class="detail-head-img" mode="scaleToFill" src="{{detail.phtotUrl}}" />
+  </view>
+  <view class="detail-desc">
+    <text>{{detail.desc}}</text>
+  </view>
+  <view class="detail_content">
+    <text>{{detail.content}}</text>
+  </view>
+</page>

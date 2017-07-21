@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/zhaosheng/zhaosheng",
+    "pages/fengguang/fengguang",
+    "pages/zhuanye/zhuanye",
+    "pages/photo/photo",
+    "pages/fuwu/fuwu",
+    "pages/detail/detail",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"black",
+    "backgroundColor":"#fff",
+    "navigationBarBackgroundColor": "#444",
+    "navigationBarTitleText": "东华理工大学校园网",
+    "navigationBarTextStyle":"#fff",
+    "enablePullDownRefresh": "true"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#1afa29",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/zhaosheng/zhaosheng",
+        "iconPath": "image/zhaosheng.png",
+        "selectedIconPath": "image/zhaosheng_active.png",
+        "text": "招生简章"
+      },
+      {
+        "pagePath": "pages/zhuanye/zhuanye",
+        "iconPath": "image/zhuanye.png",
+        "selectedIconPath": "image/zhuanye_active.png",
+        "text": "学院专业"
+      },
+      {
+        "pagePath": "pages/fengguang/fengguang",
+        "iconPath": "image/fengguang.png",
+        "selectedIconPath": "image/fengguang_active.png",
+        "text": "校园风光"
+      },
+      {
+        "pagePath": "pages/fuwu/fuwu",
+        "iconPath": "image/fuwu.png",
+        "selectedIconPath": "image/fuwu_active.png",
+        "text": "在线服务"
+      }
+    ]
+  }
+}

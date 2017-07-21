@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="zhuanye-head">
+    <image class="zhuanye-head-img" mode="scaleToFill" src="http://down.tutu001.com/d/file/20140621/984dcbc46b5233c523613731ad_560.jpg" />
+  </view>
+  <view class="zhuanye-list">
+    <block wx:for="{{items}}" wx:key="item">
+        <navigator url="/pages/detail/detail?id={{item.id}}">
+          <view class="zhuanye-list-info" index="{{index}}">
+            <image class="zhuanye-list-photo" src="{{item.phtotUrl}}"/>
+            <view class="zhuanye-list-box">
+              <text class="zhuanye-list__desc">{{item.desc}}</text>
+              <text class="zhuanye-list__content">{{item.content}}</text>
+            </view>
+          </view>
+        </navigator>
+    </block>
+  </view>
+</view>

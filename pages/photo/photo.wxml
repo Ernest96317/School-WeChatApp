@@ -1,0 +1,5 @@
+<view class="container">
+  <view class="photo">
+    <image class="photo-img" mode="scaleToFill" src="{{detail.imageUrl}}" style="width:100%"/>
+  </view>
+</view>

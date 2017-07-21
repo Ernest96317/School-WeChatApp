@@ -1,0 +1,17 @@
+/* pages/detail/detail.wxss */
+.detail-head-img{
+  width: 90%;
+  height: 180rpx;
+  padding: 25rpx;
+}
+.detail-desc{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30rpx;
+  font-size: 50rpx;
+}
+.detail_content{
+  margin: 50rpx;
+  position: absolute;
+
+}

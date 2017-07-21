@@ -1,0 +1,38 @@
+.container{
+  width: 100%;
+  height: 100vh;
+}
+.zhuanye-head-img{
+  width: 100%;
+  height: 180rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.zhuanye-list-photo{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 20rpx;
+  float: left;
+  margin-right: 20rpx;
+}
+.zhuanye-list-info{
+  margin: 30rpx;
+  height: 200rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  /*white-space: nowrap;*/
+  -webkit-line-clamp:3;
+
+  line-height: 1.6;
+  /*display: inline-block;*/
+}
+.zhuanye-list__desc{
+  display: block;
+}
+.zhuanye-list__content{
+  height: 200rpx;
+  color: #666;
+  font-size: 15px;
+  display: block;
+}

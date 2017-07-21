@@ -1,0 +1,16 @@
+
+<view class="schoollist-head">
+  <image class="schoollist-head-img" mode="scaleToFill" src="http://down.tutu001.com/d/file/20140621/984dcbc46b5233c523613731ad_560.jpg" />
+</view>
+<view class="schoollist">
+  <block wx:for="{{items}}" wx:key="item">
+    <view class="school-list">
+      <navigator url="/pages/photo/photo?id={{item.id}}">
+        <view class="school-list-info" index="{{index}}">
+          <image class="school-list-photo" src="{{item.imageUrl}}"/>
+          <text class="school-list-desc">{{item.content}}</text>
+        </view>
+      </navigator>
+    </view>
+  </block>
+</view>

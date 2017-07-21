@@ -1,0 +1,45 @@
+.content{
+  width: 100%;
+  height: 100%;
+}
+.box .box_info{
+  position: relative;
+  text-align: center;
+
+}
+.box_info image{
+  width: 100px;
+  height: 150rpx;
+  margin: 50rpx;
+  padding: 10rpx 10rpx 80rpx 10rpx;
+  border: 5rpx solid #cccccc;
+
+}
+.box_info .text1{
+  position: absolute;
+  left: 150rpx ;
+  top: 240rpx;
+  font-size: 30rpx;
+  color: #666666;
+}
+.box_info .text2{
+  position: absolute;
+  left: 465rpx ;
+  top: 240rpx;
+  font-size: 30rpx;
+  color: #666666;
+}
+.box_info .text3{
+  position: absolute;
+  left: 120rpx ;
+  top: 590rpx;
+  font-size: 30rpx;
+  color: #666666;
+}
+.box_info .text4{
+  position: absolute;
+  left: 450rpx ;
+  top: 590rpx;
+  font-size: 30rpx;
+  color: #666666;
+}

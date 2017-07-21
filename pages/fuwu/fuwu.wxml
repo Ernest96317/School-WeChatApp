@@ -1,0 +1,19 @@
+<view class="content">
+  <view class="box">
+    <view class="box_info">
+      <image bindtap="loadingTap" src="http://pic1.16pic.com/00/26/29/16pic_2629215_b.jpg" alt="" />
+      <text class="text1">招生咨询</text>
+      <image bindtap="loadingTap" src="http://pic05.997788.com/pic_search/00/13/74/96/se13749663.jpg" alt="开通校园卡" />
+      <text class="text2">开通校园卡</text>
+      <image bindtap="loadingTap"src="http://img5.iqilu.com/c/u/2016/0304/1457053627896.jpg" alt="空调寝室申请" />
+      <text class="text3">空调寝室申请</text>
+      <image bindtap="loadingTap" src="http://pic.58pic.com/58pic/14/83/07/14h58PICfQK_1024.jpg" alt="办理寝室款待" />
+      <text class="text4">办理寝室宽带</text>
+    </view>
+  </view>
+  <view class="body-view">
+    <loading hidden="{{hidden}}">
+        功能暂未开放！
+    </loading>
+</view>
+</view>
